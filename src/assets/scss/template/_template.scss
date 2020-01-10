@@ -60,13 +60,33 @@ table.button.google table td {
 
 .header-top {
   background: #7547de;
-  margin:auto 0;
+  // margin: auto 0;
+  padding-top: 16px;
 }
 
 .logo {
-  color: #ffffff;
-  margin-bottom: 0;
-  margin-top: 16px;
-  font-size: 24px;
-  font-weight: bold;
+  & a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7547de;
+    float: left;
+    font-weight: bold;
+  }
+}
+
+.time-to-live {
+  font-size: 12px;
+  padding-left: 20px;
+  color: grey;
+}
+
+.main-btn {
+  & table td {
+    border-radius: 7Ppx;
+  }
+}
+
+.footer {
+  font-size: 10px;
+  color: grey;
 }
